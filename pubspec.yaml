@@ -1,0 +1,19 @@
+name: ssme_esp_provisioning
+description: A modernized Pure Dart implementation of ESP-IDF Unified Provisioning.
+version: 2.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  protobuf: ^6.0.0
+  cryptography: ^2.9.0
+  collection: ^1.19.1
+  pointycastle: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
